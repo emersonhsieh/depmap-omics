@@ -37,8 +37,9 @@ Run script:
 source ./.venv/bin/activate
 
 # Run script
-python3 -i scripts/collate.py
-python3 -i scripts/reshuffle.py
+cd scripts
+python3 -i collate.py
+python3 -i reshuffle.py
 ```
 
 ## Notes
