@@ -25,6 +25,7 @@ For an existing clone of this repository, run the following:
 Environment setup on first run:
 
 ```python3
+python3 -m venv path/to/venv
 source path/to/venv/bin/activate
 ```
 
@@ -41,12 +42,6 @@ python3 -i collate.py
 ```
 
 ## Notes
-
-On first repository initialization:
-
-```
-python3 -m venv path/to/venv
-```
 
 Installing new packages:
 
