@@ -25,7 +25,7 @@ For an existing clone of this repository, run the following:
 ```python3
 # Create virtual environment
 python3 -m venv .venv
-source ./venv/bin/activate
+source ./.venv/bin/activate
 # Install dependencies
 pip3 install -r requirements.txt
 ```
