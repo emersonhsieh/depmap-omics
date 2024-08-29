@@ -29,4 +29,4 @@ for i in range(len(df3_cell_line_collated)):
             df3.loc[i, "ModelID"] = df1_model_id[j]
 
 # save the new df3 with ModelID
-df3.to_csv("./csv/fake_dummy_AUC_MATRIX_with_ACH.csv", index=False)
+df3.to_csv("../exported-csv/fake_dummy_AUC_MATRIX_with_ACH.csv", index=False)

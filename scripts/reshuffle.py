@@ -43,5 +43,5 @@ if len(df2_new) == len(df3_new):
     print("The number of rows in the two dataframes are equal.")
 
 # save the new df2_new
-df2_new.to_csv("./exported_csv/OmicsExpressionProteinCodingGenesTPMLogp1_reshuffled.csv", index=False)
-df3_new.to_csv("./exported_csv/fake_dummy_AUC_MATRIX_with_ACH_reshuffled.csv", index=False)
+df2_new.to_csv("../exported-csv/OmicsExpressionProteinCodingGenesTPMLogp1_reshuffled.csv", index=False)
+df3_new.to_csv("../exported-csv/fake_dummy_AUC_MATRIX_with_ACH_reshuffled.csv", index=False)
