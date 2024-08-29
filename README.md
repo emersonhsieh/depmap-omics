@@ -33,6 +33,10 @@ pip3 install -r requirements.txt
 Run script:
 
 ```python3
+# Activate environment
+source ./.venv/bin/activate
+
+# Run script
 python3 -i scripts/collate.py
 python3 -i scripts/reshuffle.py
 ```
