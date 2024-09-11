@@ -27,7 +27,7 @@ For an existing clone of this repository, run the following:
 python3 -m venv .venv
 source ./.venv/bin/activate
 # Install dependencies
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Run script:
